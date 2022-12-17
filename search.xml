@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>php操作符绕过</title>
+      <link href="/2022/12/17/php%E8%BF%87%E6%BB%A4%E7%BB%95%E8%BF%87/"/>
+      <url>/2022/12/17/php%E8%BF%87%E6%BB%A4%E7%BB%95%E8%BF%87/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/./img/%E7%BB%95%E8%BF%87.png"></p><p><strong>1.cat被过滤<br>使用 more,less,tail代替<br>2.ls被过滤使用拼接法<br>例 a&#x3D;l;b&#x3D;s;$a $s<br>3.当关键字被过滤时多考虑正则手法<br>例 ph？（则代表php）<br>每道题每道题对待，以情况而论。（这道题如果不是规定死了system命令，还可以使用一句话密码走后门，达到rce）</strong></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/12/15/hello-world/"/>
       <url>/2022/12/15/hello-world/</url>
